@@ -1,0 +1,18 @@
+﻿[PMC Globals]|None||
+[PMC Code v5.4.1]|F1||1|Window,2,Fast,0,1,Input,-1,-1,1|1|Macro1
+Context=None|
+Groups=Start:1
+1|Control + c|{Control Down}{c}{Control Up}|1|0|Send|||||1|
+2|WinActivate||1|333|WinActivate||Add|||2|
+3|Shift + Control + v|{Shift Down}{Control Down}{v}{Control Up}{Shift Up}|1|0|Send|||||4|
+
+[PMC Code v5.4.1]|F2||1|Window,2,Fast,0,1,Input,-1,-1,1|1|Macro2
+Context=None|
+Groups=Start:1
+1|Shift + Control + Alt + c|{Shift Down}{Control Down}{Alt Down}{c}{Alt Up}{Control Up}{Shift Up}|1|0|Send|||||1|
+
+[PMC Code v5.4.1]|F3||1|Window,2,Fast,0,1,Input,-1,-1,1|1|Macro3
+Context=None|
+Groups=Start:1
+1|Control + Enter|{Control Down}{Enter}{Control Up}|1|0|Send|||||1|
+

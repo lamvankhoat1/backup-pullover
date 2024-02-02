@@ -1,0 +1,13 @@
+﻿[PMC Globals]|None||
+[PMC Code v5.4.1]|F3||1|Window,2,Fast,0,1,Input,-1,-1,1|1|Macro1
+Context=None|
+Groups=Start:1
+1|Shift + Control + s|{Shift Down}{Control Down}{s}{Control Up}{Shift Up}|1|500|Send|||||1|
+2|Left Click & Drag|{Click, 115, 236, Left Down}{Click, 1215, 854, Left Up}|1|10|SendEvent|||RECTANGLE SELECTION||3|
+3|Left Move & Click|592, 621 Left, 1|1|1000|Click|||COPY BUTTON||5|
+4|Tab|{Tab}|4|5|Send|||||7|
+5|Enter|{Enter}|1|1500|Send|||||9|
+6|Control + Tab|{Control Down}{Tab}{Control Up}|1|100|Send|||||11|
+7|Control + v|{Control Down}{v}{Control Up}|1|100|Send|||||13|
+8|Shift + Control + Tab|{Shift Down}{Control Down}{Tab}{Control Up}{Shift Up}|1|100|Send|||||15|
+
